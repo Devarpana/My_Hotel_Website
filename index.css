@@ -1,0 +1,61 @@
+.Flex-container{
+    display: flex;
+    flex-direction: column;
+}
+.container1{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%,
+    rgba(9,121,14,0.9808298319327731) 100%, rgba(0,212,255,1) 100%);
+}
+.nav-link{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 15px;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #DAA520;
+    --bs-btn-border-color: #DAA520;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #DAA520;
+    --bs-btn-hover-border-color: #DAA520;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #DAA520;
+    --bs-btn-active-bg: #DAA520;
+    --bs-btn-active-border-color:#DAA520;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #DAA520;
+    --bs-btn-disabled-border-color:#DAA520;
+}
+.Flex-container2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60%;
+    align-items: center;
+    margin-top: 200px;
+    }
+.container2 p {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Merriweather', sans-serif;
+    text-shadow: 10px 10px 20px black;
+}
+.container2 h1{
+        font-size: 100px;
+        font-weight: 500;
+        font-family: 'Protest Guerrilla', cursive ;
+        text-shadow: 100px 100px 100px grey, 20px 20px 50px black;
+    }
+
+.container2{
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-image: url(./My_website_homepage.jpg);
+    margin-top: 0;
+    padding: 0;
+    height:500px;
+}
